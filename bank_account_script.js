@@ -13,7 +13,9 @@ const userWithdraw = document.getElementById("userWithdraw");
 const btnWithdraw = document.getElementById("btnWithdraw");
 
 
+const userAccount = document.getElementById("userAccount");
 
+const btnAccount = document.getElementById("btnAccount");
 const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
