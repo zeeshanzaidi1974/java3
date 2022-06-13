@@ -1,1 +1,69 @@
 
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="container">
+        
+
+        <div id="cont">
+            <div id="login" class="comm">
+                <h3>AT Bank</h3>
+                   
+                <ol>
+                     <li>1-Deposit</li>
+                     <li>2-Withdraw</li>
+                     <li>3-Account Name</li>
+                </ol>
+              
+                Number: <input type="number" id="myNumber" value="2">
+
+                <button onclick="myFunction()">Please enter your choice number</button>
+
+            </div>
+            
+            
+        </div>
+    </div>
+  
+
+ <p id="demo"></p> 
+<script>
+function myFunction() {
+  var x = document.getElementById("myNumber").value;
+  
+  document.getElementById("demo").innerHTML = x;
+  
+  
+  if(x=='0'){ 
+		alert ( 'Choice number is required' ) ;
+                      }
+  
+     if(x==' '){ 
+		alert ( 'Choice number is required' ) ;
+                      }
+
+   if(x=='1'){
+              location.href = 'https://htmlpreview.github.io/?https://github.com/zeeshanzaidi1974/calcu2/blob/main/index.html'; 
+             }
+  
+      if(x=='2'){
+              location.href = 'https://htmlpreview.github.io/?https://github.com/zeeshanzaidi1974/calcu2/blob/main/index1.html'; 
+             }
+}
+</script>
+
+ 
+
+<p>hgfcddghnjhgf my name is abcdef</p>
+
+
+</body>
+</html>
