@@ -4,6 +4,7 @@ const acctBalanceLbl = document.getElementById("acctBalanceLbl");
 const deposits = [];
 const withdrawals = [];
 let totalBalance = 25;
+let accountHolder = John Robinson;
 const userDeposit = document.getElementById("userDeposit");
 
 const btnDeposit = document.getElementById("btnDeposit");
@@ -89,4 +90,8 @@ btnAccount.addEventListener('click', () => {
     if (isNaN(userAccount.value)) {
         alert("Please enter a number.");
         return userAccount.value = '';
-    } else {
+    } else 
+         {
+          alert("Your Name is" + accountHolder);
+          return userAccount.value = '';
+         }
