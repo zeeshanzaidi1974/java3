@@ -77,7 +77,6 @@ let totalBalanceFormatted = formatter.format(totalBalance);
     }
 }
 });
-
 // format TotalBalance to show $ XX.XX (2 decimal places)
 
 let totalBalanceFormatted = formatter.format(totalBalance);
