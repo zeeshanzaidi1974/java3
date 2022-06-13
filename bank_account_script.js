@@ -30,8 +30,8 @@ btnDeposit.addEventListener('click', () => {
          let totalBalanceFormatted = formatter.format(totalBalance);
         document.getElementById("acctBalanceLbl").innerHTML = totalBalanceFormatted;
 
-  console.log("$" + userDeposit.value);
-  console.log("$" + totalBalance.value);
+  console.log("SEK" + userDeposit.value);
+  console.log("SEK" + totalBalance.value);
   
     }
 }
