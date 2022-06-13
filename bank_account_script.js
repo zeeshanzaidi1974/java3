@@ -4,7 +4,7 @@ const acctBalanceLbl = document.getElementById("acctBalanceLbl");
 const deposits = [];
 const withdrawals = [];
 let totalBalance = 25;
-let accountHolder = Abraham;
+const AccountHolder = "Abraham";
 
 const userDeposit = document.getElementById("userDeposit");
 
@@ -90,7 +90,7 @@ btnAccount.addEventListener('click', () => {
         return userAccount.value = '';
     } else 
          {
-          alert("Your Name is" + accountHolder);
+          alert ('hfdssgh'+ AccountHolder);
           return userAccount.value = '';
          }
     }
