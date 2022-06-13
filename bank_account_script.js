@@ -4,7 +4,7 @@ const acctBalanceLbl = document.getElementById("acctBalanceLbl");
 const deposits = [];
 const withdrawals = [];
 let totalBalance = 25;
-const AccountHolder = "Abraham";
+
 
 const userDeposit = document.getElementById("userDeposit");
 
@@ -12,9 +12,7 @@ const btnDeposit = document.getElementById("btnDeposit");
 const userWithdraw = document.getElementById("userWithdraw");
 const btnWithdraw = document.getElementById("btnWithdraw");
 
-const userAccount = document.getElementById("userAccount");
 
-const btnAccount = document.getElementById("btnAccount");
 
 const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -83,14 +81,4 @@ let totalBalanceFormatted = formatter.format(totalBalance);
 document.getElementById("acctBalanceLbl").innerHTML = totalBalanceFormatted;
 
 
-btnAccount.addEventListener('click', () => {
- 
-    if (isNaN(userAccount.value)) {
-        alert("Please enter a number.");
-        return userAccount.value = '';
-    } else 
-         {
-          alert ('hfdssgh'+ AccountHolder);
-          return userAccount.value = '';
-         }
-    }
+
