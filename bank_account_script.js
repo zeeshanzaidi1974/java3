@@ -4,7 +4,7 @@ const acctBalanceLbl = document.getElementById("acctBalanceLbl");
 const deposits = [];
 const withdrawals = [];
 let totalBalance = 25;
-let accountHolder = John Robinson;
+
 const userDeposit = document.getElementById("userDeposit");
 
 const btnDeposit = document.getElementById("btnDeposit");
