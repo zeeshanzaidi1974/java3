@@ -82,8 +82,6 @@ let totalBalanceFormatted = formatter.format(totalBalance);
 let totalBalanceFormatted = formatter.format(totalBalance);
 document.getElementById("acctBalanceLbl").innerHTML = totalBalanceFormatted;
 
-btnAccount
-userAccount
 
 btnAccount.addEventListener('click', () => {
  
@@ -95,3 +93,4 @@ btnAccount.addEventListener('click', () => {
           alert("Your Name is" + accountHolder);
           return userAccount.value = '';
          }
+    }
