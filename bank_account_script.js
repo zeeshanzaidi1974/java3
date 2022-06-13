@@ -82,5 +82,16 @@ let totalBalanceFormatted = formatter.format(totalBalance);
 let totalBalanceFormatted = formatter.format(totalBalance);
 document.getElementById("acctBalanceLbl").innerHTML = totalBalanceFormatted;
 
+btnAccount.addEventListener('click', () => {
+ 
+    if (isNaN(userAccount.value)) {
+        alert("Please enter a number.");
+        return userAccount.value = '';
+    } else {
+         
+        alert ('hfdssgh');}
+}
+
+
 
 
