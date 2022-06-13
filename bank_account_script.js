@@ -3,7 +3,7 @@
 const acctBalanceLbl = document.getElementById("acctBalanceLbl");
 const deposits = [];
 const withdrawals = [];
-let totalBalance = 25;
+let totalBalance = 1000;
 
 
 const userDeposit = document.getElementById("userDeposit");
@@ -36,7 +36,7 @@ btnDeposit.addEventListener('click', () => {
          let totalBalanceFormatted = formatter.format(totalBalance);
         document.getElementById("acctBalanceLbl").innerHTML = totalBalanceFormatted;
 
-  console.log("SEK" + userDeposit.value);
+  console.log("$" + userDeposit.value);
   return userDeposit.value = '';
   
     }
@@ -54,8 +54,8 @@ btnWithdraw.addEventListener('click', () => {
     } else {
 
 // checks if withdrawal meets parameters
-        if (userWithdraw.value > totalBalance - 5) {
-            alert("Your total balance cannot drop below $5.");
+        if (userWithdraw.value > totalBalance - 50) {
+            alert("Your total balance cannot drop below $50.");
             return userWithdraw.value = '';
         } else {
  // push withdrawal to array
