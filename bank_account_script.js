@@ -4,6 +4,7 @@ const acctBalanceLbl = document.getElementById("acctBalanceLbl");
 const deposits = [];
 const withdrawals = [];
 let totalBalance = 25;
+let accountHolder = Abraham;
 
 const userDeposit = document.getElementById("userDeposit");
 
@@ -11,9 +12,9 @@ const btnDeposit = document.getElementById("btnDeposit");
 const userWithdraw = document.getElementById("userWithdraw");
 const btnWithdraw = document.getElementById("btnWithdraw");
 
-const userAccount = document.getElementById("userDeposit");
+const userAccount = document.getElementById("userAccount");
 
-const btnAccount = document.getElementById("btnDeposit");
+const btnAccount = document.getElementById("btnAccount");
 
 const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
